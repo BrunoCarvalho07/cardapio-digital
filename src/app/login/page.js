@@ -47,7 +47,7 @@ export default function LoginPage() {
     <div className="min-h-screen flex items-center justify-center p-4">
       <div className="max-w-md w-full bg-white rounded-2xl border border-azulejo/10 shadow-md p-6">
         <Logo />
-        <h1 className="font-display font-bold text-2xl text-azulejo mb-6">Entrar</h1>
+        <h1 className="font-display font-bold text-2xl text-azulejo mb-6 text-center">Entrar</h1>
 
         {erro && <p className="text-telha mb-4 text-sm">{erro}</p>}
         {mensagem && <p className="text-green-700 mb-4 text-sm">{mensagem}</p>}

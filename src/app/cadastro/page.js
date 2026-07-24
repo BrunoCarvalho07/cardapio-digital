@@ -29,7 +29,7 @@ export default function CadastroPage() {
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
       <div className="max-w-md w-full bg-white rounded-2xl border border-azulejo/10 shadow-md p-6">
-        <h1 className="font-display font-bold text-2xl text-azulejo mb-6">Criar conta</h1>
+        <h1 className="font-display font-bold text-2xl text-azulejo mb-6 text-center">Criar conta</h1>
 
         {erro && <p className="text-telha mb-4 text-sm">{erro}</p>}
 
